@@ -15,7 +15,7 @@ public class NewRestController {
 	String age;
 @RequestMapping("/")
 public String hello() {
-	return"Hello, time is "+ LocalDateTime.now()+" "+name+" "+age;
+	return "Hello, time is "+ LocalDateTime.now()+" "+name+" "+age;
 }
 @RequestMapping("/demo")
 public String demo() {
